@@ -21,7 +21,7 @@ class LoginForm(unittest.TestCase):
 
         caps = {}
 
-        caps['name'] = 'Screenshot Example'
+        caps['name'] = 'Travis CI Example'
         caps['browserName'] = 'Chrome'
         caps['version'] = '75'
         caps['platform'] = 'Windows 10'
