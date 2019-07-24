@@ -1,0 +1,7 @@
+sudo: false
+language: python
+# command to run tests
+script: pytest
+install:
+  - pip install selenium
+  - pip install requests
